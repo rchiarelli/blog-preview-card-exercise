@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: hsl(47, 88%, 63%);
+  font-family: Figtree;
+}
+
+main {
+  border: solid;
+  border-radius: 2rem;
+  max-width: 500px;
+  width: 95%;
+  padding: 2rem;
+  margin: 30% auto;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  box-shadow: 10px 10px rgba(0, 0, 0, 1);
+}
+
+.imagem img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+.info :first-child {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 0.3rem;
+  width: fit-content;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.info :nth-child(2) {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.info h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.info h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.info :last-child {
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 42%);
+}
+
+.info-perfil {
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  align-items: center;
+  width: 75%;
+}
+
+.info-perfil img {
+  width: 4rem;
+}
+
+.info-perfil h2 {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
